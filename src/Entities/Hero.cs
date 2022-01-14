@@ -1,6 +1,6 @@
 namespace desafios.src.Entities
 {
-    public class Hero
+    public abstract class Hero
     {
         public string Name { get; set; }
         public int Level { get; set; }
@@ -13,10 +13,7 @@ namespace desafios.src.Entities
             this.HeroType = heroType;
         }
 
-        public Hero()
-        {
-
-        }
+        public Hero(){}
 
         public override string ToString()
         {
